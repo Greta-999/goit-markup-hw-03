@@ -135,11 +135,11 @@ li {
 }
 
 /*----section1---*/
-.name {
-  padding: 120px 120px;
-  max-width: ;
+.wrap {
+  display: flex;
+  gap: 24px;
+  padding: 120px;
 }
-
 .name-link {
   font-weight: 500;
   font-size: 20px;
