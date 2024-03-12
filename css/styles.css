@@ -91,6 +91,8 @@ li {
 }
 .efect-link {
   background-color: #2e2f42;
+  padding: 188px 0;
+  width: 496px;
 }
 .efect-link:hover,
 .efect-link:focus {
@@ -105,8 +107,6 @@ li {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  padding: 188px 0;
-  width: 496px;
 }
 .h-link:hover,
 .h-link:focus {
