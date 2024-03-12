@@ -107,6 +107,7 @@ li {
   color: #fff;
   text-align: center;
   max-width: 496px;
+  margin: 0 auto;
 }
 .h-link:hover,
 .h-link:focus {
@@ -126,10 +127,17 @@ li {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
 }
 .button-link:hover,
 .button-link:focus {
   background-color: #404bbf;
+}
+
+/*----section1---*/
+.name {
+  padding: 120px 120px;
+  max-width: ;
 }
 
 .name-link {
