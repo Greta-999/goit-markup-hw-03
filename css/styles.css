@@ -201,6 +201,7 @@ li {
 .wrap-portfolio {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio {
 }
@@ -212,6 +213,8 @@ li {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding: 72px;
+  margin-top: 120px;
 }
 .soupis-link {
   font-weight: 500;
