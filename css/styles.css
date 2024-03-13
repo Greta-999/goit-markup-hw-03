@@ -198,6 +198,9 @@ li {
   background-color: #f4f4fd;
   margin-bottom: 72px;
 }
+.item {
+  width: calc((100% - 72px) / 4);
+}
 .title-team {
   padding: 32px 16px;
   text-align: center;
@@ -262,10 +265,11 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*-----footer-----*/
-.container-footer {
-  padding: 100px 0;
+.img {
+  display: block;
 }
+/*-----footer-----*/
+
 .footer-link {
   font-weight: 400;
   font-size: 16px;
@@ -276,12 +280,10 @@ li {
 }
 .fon-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-footer {
   color: #f4f4fd;
   display: inline-block;
   margin-bottom: 16px;
-}
-.img {
-  display: block;
 }
