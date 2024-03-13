@@ -139,14 +139,15 @@ li {
   display: flex;
   gap: 24px;
   padding: 120px 0;
-  width: calc((100-74px) / 4);
 }
+
 .name-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .re-link {
   font-weight: 400;
@@ -155,8 +156,13 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/*-----team-----*/
 .our-link {
   background-color: #f4f4fd;
+}
+.wrap-team {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
@@ -170,6 +176,10 @@ li {
   text-align: center;
   text-transform: capitalize;
   background-color: #f4f4fd;
+  padding: 120px;
+}
+.title-team {
+  padding: 32px 16px;
 }
 .teana-link {
   font-weight: 500;
@@ -186,6 +196,14 @@ li {
   color: #434455;
 }
 
+/*------portfolio----*/
+
+.wrap-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio {
+}
 .portfolio-link {
   font-weight: 700;
   font-size: 36px;
@@ -222,7 +240,4 @@ li {
 }
 .logo-footer {
   color: #f4f4fd;
-}
-.team {
-  display: flex;
 }
